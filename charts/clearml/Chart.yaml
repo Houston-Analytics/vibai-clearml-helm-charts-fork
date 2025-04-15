@@ -7,7 +7,7 @@ appVersion: "1.5.0"
 home: https://clear.ml
 icon: https://raw.githubusercontent.com/allegroai/clearml/master/docs/clearml-logo.svg
 sources:
-  - https://github.com/allegroai/clearml-helm-charts
+  - https://github.com/Houston-Analytics/vibai-clearml-helm-charts-fork
   - https://github.com/allegroai/clearml
 maintainers:
   - name: valeriano-manassero
