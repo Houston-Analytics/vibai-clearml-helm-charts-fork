@@ -3,7 +3,7 @@ name: Release Charts
 on:
   push:
     branches:
-      - main
+      - bhpclearml-4.0.0
     paths:
       - 'charts/**'
 
