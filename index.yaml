@@ -3,6 +3,41 @@ entries:
   clearml:
   - apiVersion: v2
     appVersion: 1.5.0
+    created: "2025-04-16T12:41:47.700435005Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: file://../../dependency_charts/redis
+      version: 10.9.0
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: file://../../dependency_charts/mongodb
+      version: 10.3.4
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: file://../../dependency_charts/elasticsearch
+      version: 7.16.2
+    description: MLOps platform
+    digest: fa7fa42bdd2102f5fe4f29b71c4ce361f69b95816ae917b4a1afebecc4ea511f
+    home: https://clear.ml
+    icon: https://raw.githubusercontent.com/allegroai/clearml/master/docs/clearml-logo.svg
+    keywords:
+    - clearml
+    - machine learning
+    - mlops
+    maintainers:
+    - name: valeriano-manassero
+      url: https://github.com/valeriano-manassero
+    name: clearml
+    sources:
+    - https://github.com/Houston-Analytics/vibai-clearml-helm-charts-fork
+    - https://github.com/allegroai/clearml
+    type: application
+    urls:
+    - https://github.com/Houston-Analytics/vibai-clearml-helm-charts-fork/releases/download/clearml-4.0.3/clearml-4.0.3.tgz
+    version: 4.0.3
+  - apiVersion: v2
+    appVersion: 1.5.0
     created: "2025-04-15T11:17:21.281844127Z"
     dependencies:
     - condition: redis.enabled
@@ -106,4 +141,4 @@ entries:
     urls:
     - https://github.com/Houston-Analytics/vibai-clearml-helm-charts-fork/releases/download/clearml-4.0.0/clearml-4.0.0.tgz
     version: 4.0.0
-generated: "2025-04-15T11:17:21.281856309Z"
+generated: "2025-04-16T12:41:47.700450794Z"
